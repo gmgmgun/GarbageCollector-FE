@@ -1,0 +1,28 @@
+.product-header {
+  height: 216px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid rgb(221, 221, 221);
+
+  .product-h2 {
+    display: flex;
+    align-items: flex-start;
+    font-family: 'BMDOHYEON';
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 74px;
+
+    sup {
+      margin: 8px 0px 0px 14px;
+      font-family: 'BMDOHYEON';
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 22px;
+    }
+  }
+  .product-p {
+    margin-top: 23px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29px;
+  }
+}

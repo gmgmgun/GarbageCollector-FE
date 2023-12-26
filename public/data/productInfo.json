@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "sequence": 1,
+    "imageUrl": "/images/boracay1.webp",
+    "infoAlt": "보라카이1"
+  },
+  {
+    "id": 2,
+    "sequence": 2,
+    "imageUrl": "/images/boracay2.webp",
+    "infoAlt": "보라카이2"
+  },
+  {
+    "id": 3,
+    "sequence": 3,
+    "imageUrl": "/images/boracay3.webp",
+    "infoAlt": "보라카이3"
+  },
+  {
+    "id": 4,
+    "sequence": 4,
+    "imageUrl": "/images/boracay4.jpeg",
+    "infoAlt": "보라카이4"
+  },
+  {
+    "id": 5,
+    "sequence": 5,
+    "imageUrl": "/images/boracay5.jpeg",
+    "infoAlt": "보라카이5"
+  },
+  {
+    "id": 6,
+    "sequence": 6,
+    "imageUrl": "/images/boracay6.webp",
+    "infoAlt": "보라카이6"
+  },
+  {
+    "id": 7,
+    "sequence": 7,
+    "imageUrl": "/images/boracay7.webp",
+    "infoAlt": "보라카이7"
+  },
+  {
+    "id": 8,
+    "sequence": 8,
+    "imageUrl": "/images/boracay8.webp",
+    "infoAlt": "보라카이8"
+  },
+  {
+    "id": 9,
+    "sequence": 9,
+    "imageUrl": "/images/boracay9.webp",
+    "infoAlt": "보라카이9"
+  },
+  {
+    "id": 10,
+    "sequence": 10,
+    "imageUrl": "/images/boracay10.jpeg",
+    "infoAlt": "보라카이10"
+  },
+  {
+    "id": 11,
+    "sequence": 11,
+    "imageUrl": "/images/boracay11.jpeg",
+    "infoAlt": "보라카이11"
+  },
+  {
+    "id": 12,
+    "sequence": 12,
+    "imageUrl": "/images/boracay12.webp",
+    "infoAlt": "보라카이12"
+  }
+]

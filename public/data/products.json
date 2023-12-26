@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "mainImage": "/images/MingGu1.jpeg",
+    "subImage": "/images/MingGu1-2.jpeg",
+    "productName": "밍구는 졸귀탱",
+    "productAlt": "앉은밍구",
+    "price": "100,000,000원"
+  },
+
+  {
+    "id": 2,
+    "mainImage": "/images/MingGu2.jpeg",
+    "subImage": "/images/MingGu2-2.jpeg",
+    "productName": "게으른 밍구",
+    "productAlt": "누운밍구",
+    "price": "200,000,000원"
+  },
+
+  {
+    "id": 3,
+    "mainImage": "/images/Boracay1.jpeg",
+    "subImage": "/images/Boracay1-2.jpeg",
+    "productName": "보라카이 패키지",
+    "productAlt": "보라카이",
+    "price": "1,200,000원"
+  },
+
+  {
+    "id": 4,
+    "mainImage": "/images/spring.jpeg",
+    "subImage": "/images/summer.jpeg",
+    "productName": "봄에서 여름으로",
+    "productAlt": "봄여름",
+    "price": "To be contirue!"
+  },
+
+  {
+    "id": 5,
+    "productPic": "/images/Summer.jpeg",
+    "useProductPic": "/images/Boracay1-2.jpeg",
+    "productName": "보라카이 가서 투명한 바다볼사람. 보기만하는거임",
+    "productAlt": "보라카이",
+    "delPrice": 765000,
+    "price": "900,000",
+    "discount": 15,
+    "option": [
+      {
+        "id": 0,
+        "optName": "수영은하게 해줘라 ~",
+        "addPrice": 0,
+        "cartId": 0,
+        "quantity": 100000,
+        "price": 750000
+      },
+      {
+        "id": 1,
+        "optName": "그래도 한잔해야제 ~ (+20,000원)",
+        "addPrice": 20000,
+        "cartId": 1,
+        "quantity": 100000,
+        "price": 750000
+      },
+      {
+        "id": 2,
+        "optName": "왔으니까 자고가보자 (+150,000원)",
+        "addPrice": 150000,
+        "cartId": 2,
+        "quantity": 100000,
+        "price": 750000
+      }
+    ]
+  }
+]

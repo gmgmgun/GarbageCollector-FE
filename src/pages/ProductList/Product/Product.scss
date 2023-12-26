@@ -1,0 +1,54 @@
+.product-wrap {
+  display: flex;
+  display: inline-block;
+  margin: 0 0 30px 24px;
+  text-align: center;
+
+  :hover {
+    color: #d392ff;
+  }
+
+  .product-ul {
+    .product-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid transparent;
+      cursor: pointer;
+
+      .product-pic {
+        width: 230px;
+        height: 230px;
+        border-radius: 2px;
+      }
+      
+      .product-info {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        padding-top: 22px;
+        font-weight: 600;
+        text-align: center;
+        word-break: keep-all;
+
+        p {
+          padding: 10px 0;
+          transition: 0.3s ease-out;
+        }
+
+        .product-discount-badge {
+          position: relative;
+          color: red;
+          font-size: 12px;
+          text-decoration-line: underline;
+        }
+
+        del {
+          padding-right: 8px;
+          color: #ccc;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+@mixin icon-size {
+  width: 32px;
+  height: 32px;
+}
+
+button {
+  cursor: pointer;
+}
+.nav-right-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  width: 250px;
+  margin-right: -2px;
+  margin-left: auto;
+  padding-inline-start: 40px;
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;
+
+    .nav-search-icon {
+      @include icon-size;
+      padding: 0;
+      border-color: transparent;
+      background-color: transparent;
+    }
+
+    .nav-cart-icon {
+      @include icon-size;
+      padding-top: 2px;
+    }
+
+    .nav-login {
+      @include icon-size;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 60px;
+      height: 33px;
+      margin: 0 2px;
+      padding-top: 5px;
+      border: 1px solid black;
+      border-radius: 17px;
+      font-size: 12px;
+      font-weight: 700;
+      text-align: center;
+      text-decoration: none;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+
+    .more-info-btn {
+      padding: 0;
+      border-color: transparent;
+      background-color: transparent;
+    }
+
+    .more-info-icon {
+      @include icon-size;
+    }
+  }
+}

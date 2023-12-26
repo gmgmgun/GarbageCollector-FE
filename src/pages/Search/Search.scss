@@ -1,0 +1,122 @@
+.search-bar-container {
+  visibility: visible;
+  position: fixed;
+  width: 100%;
+  max-height: 100%;
+  overflow-y: scroll;
+  transition: top 0.5s ease 0s, visibility 0.3s ease 0s;
+  background-color: rgb(255, 255, 255);
+
+  .search-bar-wrapper {
+    position: relative;
+    min-width: 600px;
+    max-width: 1440px;
+    height: 1000px;
+    margin: 0px auto;
+    padding: 102px 0px 80px;
+
+    .search-bar-header {
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      width: 600px;
+      margin: 0 auto;
+
+      input {
+        width: 100%;
+        height: 60px;
+        border: none;
+        border-bottom: 2px solid #000;
+        outline: none;
+        font-family: 'BMJUA';
+        font-size: 20px;
+      }
+
+      input::placeholder {
+        color: #c4c4c4;
+      }
+
+      button {
+        border: 0;
+        background-color: transparent;
+        cursor: pointer;
+
+        img {
+          width: 50px;
+          height: 50px;
+        }
+      }
+    }
+  }
+
+  .search-result-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px 200px;
+    text-align: center;
+
+    .search-result {
+      position: relative;
+      margin: 20px 20px;
+
+      .last-img {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        transition: all 0.3s ease-in;
+        opacity: 0;
+      }
+
+      h2 {
+        padding-top: 15px;
+        color: purple;
+        font-size: 18px;
+      }
+    }
+
+    .search-result:hover {
+      .last-img {
+        z-index: 1;
+        opacity: 1;
+      }
+    }
+
+    .search-bar-recent-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 800px;
+      transform: translateX(11%);
+
+      .search-bar-recent-items {
+        padding-top: 80px;
+
+        h3 {
+          font-size: 32px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  .result-none {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+
+    li {
+      &:first-child {
+        margin-bottom: 10px;
+        font-size: 30px;
+        font-weight: 700;
+      }
+      &:last-child {
+        font-size: 20px;
+      }
+    }
+  }
+}

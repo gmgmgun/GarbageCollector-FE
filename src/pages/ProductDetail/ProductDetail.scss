@@ -1,0 +1,218 @@
+@mixin border-top-bot {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 80px 0 200px 0;
+
+  .detail-wrap {
+    .detail-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+
+      header {
+        width: 250px;
+
+        .product-discount-badge {
+          position: relative;
+          color: red;
+          font-size: 12px;
+          text-decoration-line: underline;
+        }
+
+        .product-name {
+          font-size: 29px;
+          font-weight: 700;
+          letter-spacing: -1px;
+          line-height: 42px;
+        }
+
+        .product-price {
+          display: flex;
+          align-items: center;
+          margin-top: 20px;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 19px;
+          word-break: keep-all;
+
+          del {
+            padding-right: 8px;
+            color: #ccc;
+          }
+        }
+      }
+
+      .detail-product-img {
+        width: 500px;
+        height: 500px;
+        margin: 0 35px;
+      }
+
+      .detail-for-order {
+        display: block;
+        position: relative;
+        width: 300px;
+
+        .shipping-guide {
+          padding: 16px 0;
+          @include border-top-bot;
+
+          dd {
+            margin-top: 10px;
+            color: #999;
+            line-height: 20px;
+            word-break: keep-all;
+          }
+        }
+
+        .buy-list-box {
+          position: relative;
+          margin-top: -1px;
+
+          .buy-list-option {
+            border: 0;
+            border-top: 1px solid #ddd;
+
+            .option-btn {
+              height: 45px;
+              padding-right: 27px;
+              border: transparent;
+              background-color: transparent;
+              font-size: inherit;
+              font-weight: 500;
+              cursor: pointer;
+
+              .option-btn::after {
+                position: absolute;
+                top: 50%;
+                right: 16px;
+                width: 12px;
+                height: 12px;
+                border-color: transparent;
+                background-color: transparent;
+                background-image: url(https://brandstore.baemin.com/assets/image/web/arr_select.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 100% auto;
+              }
+            }
+
+            .option-box {
+              position: absolute;
+              z-index: 1000;
+              width: 300px;
+              border: 1px solid #ddd;
+              border-radius: 6px;
+              background-color: white;
+
+              .option-list {
+                width: 100%;
+                min-height: 50px;
+                padding: 16px 20px;
+                border: none;
+                background-color: transparent;
+                color: #d392ff;
+                text-align: left;
+              }
+            }
+          }
+        }
+
+        .total-price {
+          display: flex;
+          align-items: center;
+          margin-top: 40px;
+          white-space: nowrap;
+
+          dt {
+            margin-right: 40px;
+            font-weight: 500;
+          }
+
+          dd {
+            font-size: 19px;
+            font-weight: 700;
+            line-height: 24px;
+          }
+        }
+        .buy-footer {
+          display: flex;
+          justify-content: center;
+          height: 50px;
+          margin-top: 16px;
+
+          .list-cart-btn {
+            width: 60px;
+            padding: 0;
+            transition-duration: 0.3s;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            background-color: transparent;
+            background-image: url(https://brandstore.baemin.com/assets/image/web/btn_cart.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 30px auto;
+            cursor: pointer;
+          }
+
+          .list-purchase-btn {
+            width: 100%;
+            margin-left: 10px;
+            border: transparent;
+            border-radius: 6px;
+            background-color: #d392ff;
+            color: #fafafa;
+            font-weight: 500;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .detail-des {
+      position: relative;
+      width: 100%;
+      margin-top: 50px;
+
+      .detail-tab-wrap {
+        position: relative;
+        top: -1px;
+        left: 0;
+        width: 100%;
+        height: 57px;
+
+        .detail-tab {
+          display: flex;
+          justify-content: center;
+          height: 100%;
+          border-top: 1px solid #ddd;
+          border-bottom: 1px solid #ddd;
+          cursor: pointer;
+        }
+      }
+
+      .detail-body {
+        display: flex;
+        flex-direction: column;
+        width: 1000px;
+        margin-left: 55px;
+        padding-top: 80px;
+
+        .detail-description {
+          margin: 110px 0;
+          font-family: 'BMDOHYEON';
+          font-size: 65px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.review-section {
+  display: block;
+  padding-top: 80px;
+
+  .review-header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 24px;
+
+    h3 {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+
+      .rev-num {
+        padding-left: 2px;
+      }
+    }
+  }
+
+  .review-box {
+    border-top: 1px solid #ddd;
+
+    .review-data {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 120px;
+
+      h3 {
+        font-family: 'BMDOHYEON';
+        font-size: 55px;
+        line-height: 60px;
+      }
+
+      .ment {
+        margin-top: 20px;
+        font-family: 'BMDOHYEON';
+        font-size: 20px;
+      }
+    }
+  }
+}

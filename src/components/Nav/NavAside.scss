@@ -1,0 +1,78 @@
+.aside-wrap {
+  display: flex;
+  position: absolute;
+  z-index: 1000;
+  top: 0px;
+  right: 0px;
+  flex-direction: column;
+  width: 380px;
+  height: 100%;
+  padding-top: 60px;
+  overflow: hidden;
+  transition: right 0.4s ease 0s;
+  background-color: rgb(255, 255, 255);
+
+  .aside-title {
+    width: 260px;
+    color: rgb(68, 68, 68);
+    font-family: 'BMDOHYEON';
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 42px;
+  }
+
+  .aside-nav {
+    height: 100%;
+    padding: 0px 40px 40px;
+    overflow-y: auto;
+
+    .sort {
+      margin-top: 0px;
+      color: rgb(153, 153, 153);
+      font-weight: 400;
+      line-height: 19px;
+    }
+
+    .aside-li {
+      margin-top: 15px;
+      color: rgb(68, 68, 68);
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 29px;
+    }
+  }
+
+  .aside-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    padding: 27px 40px;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-pack: center;
+
+    .aside-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      -webkit-box-pack: center;
+      -webkit-box-align: center;
+
+      .footer-ul {
+        display: flex;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+
+        .footer-li {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0px 20px;
+          -webkit-box-align: center;
+          -webkit-box-pack: center;
+        }
+      }
+    }
+  }
+}

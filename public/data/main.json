@@ -1,0 +1,32 @@
+[
+  {
+    "productName": "엔터 무적권 입력 가능한 쿠션",
+    "modelNumber": "4447777333",
+    "description": "description2",
+    "price": "21000.00",
+    "discountPrice": "18000.00",
+    "mainImage": "https://drive.google.com/uc?export=view&id=1MUimTJCox3NBh7uZ4jxDeHoi2xS3kxmF",
+    "subImage": "https://drive.google.com/uc?export=view&id=1VDedgRHOo8K6l_Yp69IW_ZJ6xZ1cPh_H",
+    "status": "For Sale"
+  },
+  {
+    "productName": "앗 내 노트북!!! 커피 쏟은 모형",
+    "modelNumber": "4447777333",
+    "description": "description2",
+    "price": "7000.00",
+    "discountPrice": "3500.00",
+    "mainImage": "https://drive.google.com/uc?export=view&id=1ci1chCPkpVCxHwEkf-XSLVaQvkpMqff3",
+    "subImage": "https://drive.google.com/uc?export=view&id=1R6_clqsv1GyDr1gWyKxOBbUDxXO32zqz",
+    "status": "For Sale"
+  },
+  {
+    "productName": "보라카이 패키지",
+    "modelNumber": "4447777333",
+    "description": "description2",
+    "price": "540000.00",
+    "discountPrice": "270000.00",
+    "mainImage": "https://images.pexels.com/photos/3507996/pexels-photo-3507996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "subImage": "https://images.pexels.com/photos/5651698/pexels-photo-5651698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "status": "For Sale"
+  }
+]

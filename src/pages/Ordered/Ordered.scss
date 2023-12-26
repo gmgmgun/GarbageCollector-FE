@@ -1,0 +1,103 @@
+.ordered {
+  padding: 80px 0px 200px;
+
+  .ordered-title {
+    height: 250px;
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+
+    .complete-order {
+      padding: 8px 12px;
+      border-radius: 60px;
+      background-color: #d392ff;
+      color: white;
+      font-size: 25px;
+    }
+
+    .comp-order-msg {
+      margin-top: 35px;
+    }
+
+    .order-number {
+      margin-top: 20px;
+      color: grey;
+      font-size: 16px;
+      font-weight: 350;
+    }
+
+    .go-main-btn {
+      width: 200px;
+      height: 50px;
+      margin-top: 25px;
+      border: none;
+      border-radius: 15px;
+      background-color: #d392ff;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+
+  .ordered-center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+
+    .check-all {
+      display: flex;
+      width: 800px;
+      height: 32px;
+      margin-top: 20px;
+      border-bottom: 1px solid black;
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    .order-info {
+      margin-top: 20px;
+    }
+  }
+
+  .go-main-btn:hover {
+    box-shadow: 200px 0 0 0 rgba(0, 0, 0, 0.2) inset;
+  }
+
+  .comp-order-msg {
+    margin-top: 35px;
+  }
+
+  .ordered-price {
+    margin-top: 10px;
+  }
+
+  .ordered-pr {
+    margin-left: 20px;
+    color: grey;
+  }
+
+  .ordered-user {
+    margin-top: 10px;
+
+    .ordered-name {
+      margin-left: 30px;
+      color: grey;
+    }
+
+    .ordered-address {
+      margin-left: 80px;
+      color: grey;
+    }
+  }
+
+  .agree-term {
+    width: 800px;
+    margin-top: 60px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fafafa;
+    font-size: 14px;
+  }
+}

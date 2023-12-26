@@ -1,0 +1,21 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+  padding: 80px 0 200px 0;
+  padding-top: 120px;
+
+  .main-theme {
+    width: 100%;
+
+    .main-banner {
+      width: 100%;
+      margin-bottom: 80px;
+
+      .main-carousel {
+        overflow: hidden;
+      }
+    }
+  }
+}

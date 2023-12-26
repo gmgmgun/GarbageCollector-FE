@@ -1,0 +1,22 @@
+[
+  {
+    "productId": 1,
+    "src": "/images/banner1.png",
+    "alt": "1"
+  },
+  {
+    "productId": 2,
+    "src": "/images/banner2.png",
+    "alt": "2"
+  },
+  {
+    "productId": 3,
+    "src": "/images/banner3.png",
+    "alt": "3"
+  },
+  {
+    "productId": 4,
+    "src": "/images/banner4.png",
+    "alt": "4"
+  }
+]

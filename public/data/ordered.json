@@ -1,0 +1,13 @@
+[
+  {
+    "cartId": 1,
+    "receiver": "짱해인",
+    "productMainImage": "/images/Boracay1.jpeg",
+    "productName": "보라카이 가서 한잔",
+    "productTotalPrice": 15000,
+    "quantity": 1,
+    "deliverFee": 3000,
+    "address": "서울특별시 테헤란로 12345",
+    "orderNumber": 1000012345678
+  }
+]

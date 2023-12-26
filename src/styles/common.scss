@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'BMDOHYEON';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BMJUA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+::selection {
+  background-color: #d392ff;
+}
+
+body {
+  font-size: 16px;
+  color: black;
+  word-break: keep-all;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration-line: none;
+  color: black;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -1,0 +1,75 @@
+.banner-carousel {
+  position: relative;
+
+  .slide-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    img {
+      width: 100vw;
+    }
+  }
+
+  .index-button-cnt {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    bottom: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 0;
+    background-color: transparent;
+
+    button {
+      width: 15px;
+      height: 15px;
+      margin-left: 12px;
+      overflow: hidden;
+      border: 0;
+      border-radius: 50%;
+      opacity: 0.2;
+      background: transparent;
+      background-color: black;
+      text-indent: -1000px;
+      cursor: pointer;
+    }
+
+    .active {
+      opacity: 1;
+    }
+  }
+
+  .previous {
+    width: 30px;
+  }
+
+  .next {
+    width: 30px;
+  }
+
+  .pervious-button {
+    left: 0px;
+  }
+
+  .next-button {
+    right: 0px;
+  }
+
+  .previous-button,
+  .next-button {
+    position: absolute;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    transform: translatey(-50%);
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+
+    img {
+      width: 100%;
+    }
+  }
+}

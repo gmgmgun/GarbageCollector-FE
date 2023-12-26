@@ -1,0 +1,35 @@
+[
+  {
+    "cartId": 1,
+
+    "productName": "보라카이 가서 한잔",
+    "productPriceBeforeDiscount": 15000,
+    "quantity": 1,
+    "deliveryFee": 3000,
+    "productOptionName": "힘들다",
+    "userPoint": 100000,
+    "discountPrice": 1800
+  },
+  {
+    "cartId": 2,
+
+    "productName": "보라카이 가서 두잔",
+    "productPriceBeforeDiscount": 5000,
+    "quantity": 2,
+    "deliveryFee": 3000,
+    "productOptionName": "힘들다",
+    "userPoint": 100000,
+    "discountPrice": 1000
+  },
+  {
+    "cartId": 3,
+
+    "productName": "보라카이 가서 두잔",
+    "productPriceBeforeDiscount": 5000,
+    "quantity": 2,
+    "deliveryFee": 3000,
+    "productOptionName": "힘들다",
+    "userPoint": 100000,
+    "discountPrice": 1000
+  }
+]

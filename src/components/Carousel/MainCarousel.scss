@@ -1,0 +1,42 @@
+.main-carousel {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+
+  .slide-window {
+    overflow: hidden;
+
+    .slide-list {
+      display: flex;
+      position: relative;
+      align-items: center;
+
+      img {
+        width: 312px;
+        height: 312px;
+      }
+    }
+  }
+
+  .previous {
+    width: 30px;
+  }
+
+  .next {
+    width: 30px;
+  }
+
+  .previous-button,
+  .next-button {
+    width: 100px;
+    height: 100px;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+
+    img {
+      width: 100%;
+    }
+  }
+}

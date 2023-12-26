@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "email": "abcde@asd.com",
+    "password": "asdasdasd",
+    "name": "이동민",
+    "birth": "1992-07-25",
+    "phone_number": "010-7432-4121",
+    "address": "어쩌구"
+  },
+  {
+    "id": 2,
+    "email": "abcdf@asd.com",
+    "password": "asdasdasd",
+    "name": "이동민",
+    "birth": "1992-07-25",
+    "phone_number": "010-7432-4121",
+    "address": "어쩌구"
+  },
+  {
+    "id": 3,
+    "email": "abcdg@asd.com",
+    "password": "asdasdasd",
+    "name": "이동민",
+    "birth": "1992-07-25",
+    "phone_number": "010-7432-4121",
+    "address": "어쩌구"
+  },
+  {
+    "id": 4,
+    "email": "abcdh@asd.com",
+    "password": "asdasdasd",
+    "name": "이동민",
+    "birth": "1992-07-25",
+    "phone_number": "010-7432-4121",
+    "address": "어쩌구"
+  },
+  {
+    "id": 5,
+    "email": "abcdi@asd.com",
+    "password": "asdasdasd",
+    "name": "이동민",
+    "birth": "1992-07-25",
+    "phone_number": "010-7432-4121",
+    "address": "어쩌구"
+  }
+]
